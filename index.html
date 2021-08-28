@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Các thẻ meta quan trọng -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
@@ -11,20 +12,19 @@
     <meta name="generator" content="STEAM for Vietnam CS102" />
     <title>Website của Brian Bui</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Phần tải CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
-
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
-    <meta name="theme-color" content="#7952b3" />
-
+    
+    <!-- Tải inline CSS -->
     <style>
       body {
         position: relative;
@@ -51,10 +51,19 @@
       .nen-anh-san-pham {
         background-size: cover;
       }
+
+      .len-dau-trang {
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        display: block;
+      }
     </style>
   </head>
   <body data-bs-spy="scroll" data-bs-target="#thanh-dieu-huong">
+    <!-- Phần đầu trang -->
     <header>
+      <!-- Phần thanh điều hướng -->
       <nav
         id="thanh-dieu-huong"
         class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"
@@ -80,31 +89,35 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#so-thich">Sở thích</a>
+                <a class="nav-link" href="#gioi-thieu">Giới thiệu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#tai-nang">Tài năng</a>
+                <a class="nav-link" href="#du-an">Dự án</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#san-pham">Sản phẩm</a>
+                <a class="nav-link" href="#blog">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#ket-ban">Kết bạn</a>
+                <a class="nav-link" href="#lien-he">Liên hệ</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+      <!-- Hết phần thanh điều hướng -->
     </header>
+    <!-- Hết phần đầu trang -->
 
+    <!-- Phần nội dung trang -->
     <main>
+      <!-- Phần mở đầu -->
       <section class="nen-anh-bia" id="trang-chu">
         <div class="lop-phu-anh-bia">
           <div class="container">
             <div class="px-4 py-5 my-5 text-center text-white">
               <img
                 class="d-block mx-auto mb-4 rounded-circle"
-                src="/anh/anh-dai-dien.png"
+                src="anh/anh-dai-dien.png"
                 alt=""
                 width="96"
                 height="96"
@@ -118,18 +131,20 @@
                 </p>
                 <a
                   role="button"
-                  href="#so-thich"
+                  href="#gioi-thieu"
                   class="btn btn-primary btn-lg px-4 mb-4"
                 >
-                  Sở thích của tớ
+                  Giới thiệu về tớ
                 </a>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- Hết phần mở đầu -->
 
-      <section id="so-thich">
+      <!-- Phần giới thiệu -->
+      <section id="gioi-thieu">
         <div class="container col-xxl-8 px-4 py-5">
           <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
@@ -143,7 +158,7 @@
               />
             </div>
             <div class="col-lg-6">
-              <h1 class="display-5 fw-bold lh-1 mb-3">Sở thích của tớ</h1>
+              <h1 class="display-5 fw-bold lh-1 mb-3">Giới thiệu về tớ</h1>
               <p class="lead">
                 Tớ rất thích chơi thể thao. Các môn thể thao của tớ là: Bơi lội,
                 cầu lông. Ngoài ra tớ cũng thích lập trình, đặc biệt là với
@@ -152,54 +167,21 @@
               <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                 <a
                   role="button"
-                  href="#san-pham"
+                  href="#du-an"
                   class="btn btn-primary btn-lg px-4 mb-4"
-                  >Tài năng của tớ</a
+                  >Dự án của tớ</a
                 >
               </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- Hết phần giới thiệu -->
 
-      <section id="tai-nang">
-        <div class="container col-xxl-8 px-4 py-5">
-          <div class="row flex-lg-row align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
-              <div class="ratio ratio-16x9">
-                <iframe
-                  src="https://www.youtube.com/embed/Q32C1vdU6mQ?controls=0&amp;start=70"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <h1 class="display-5 fw-bold lh-1 mb-3">Tài năng của tớ</h1>
-              <p class="lead">
-                Tớ có thể nói được 4 thứ tiếng là tiếng Anh, tiếng Hàn, tiếng
-                Trung và tiếng Nhật. Ngoài ra tớ còn biết đánh đàn nữa. Mời các
-                cậu hãy xem tớ đánh đàn nhé!
-              </p>
-              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                <a
-                  role="button"
-                  href="#san-pham"
-                  class="btn btn-primary btn-lg px-4 mb-4"
-                  >Sản phẩm của tớ</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="san-pham">
+      <!-- Phần dự án -->
+      <section id="du-an">
         <div class="container px-4 py-5">
-          <h1 class="text-center display-5 fw-bold lh-1 mb-3">
-            Sản phẩm của tớ
-          </h1>
+          <h1 class="text-center display-5 fw-bold lh-1 mb-3">Dự án của tớ</h1>
 
           <div
             class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5"
@@ -207,9 +189,9 @@
             <div class="col">
               <div class="card" style="width: 18rem">
                 <img
-                  src="/anh/san-pham-1.png"
+                  src="anh/du-an/du-an-1.png"
                   class="card-img-top"
-                  alt="Ảnh sản phẩm"
+                  alt="Ảnh dự án 1"
                 />
                 <div class="card-body">
                   <h5 class="card-title">Cây xương rồng</h5>
@@ -231,12 +213,12 @@
             <div class="col">
               <div class="card" style="width: 18rem">
                 <img
-                  src="/anh/san-pham-2.png"
+                  src="anh/du-an/du-an-2.png"
                   class="card-img-top"
-                  alt="Ảnh sản phẩm"
+                  alt="Ảnh dự án 2"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Cây xương rồng</h5>
+                  <h5 class="card-title">Cây mai</h5>
                   <p class="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -244,7 +226,7 @@
                   <button
                     type="button"
                     data-bs-toggle="modal"
-                    data-bs-target="#san-pham-1"
+                    data-bs-target="#san-pham-2"
                     class="btn btn-primary"
                   >
                     Chơi game
@@ -255,12 +237,12 @@
             <div class="col">
               <div class="card" style="width: 18rem">
                 <img
-                  src="/anh/san-pham-3.png"
+                  src="anh/du-an/du-an-3.png"
                   class="card-img-top"
-                  alt="Ảnh sản phẩm"
+                  alt="Ảnh dự án 3"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Cây xương rồng</h5>
+                  <h5 class="card-title">Cây đào</h5>
                   <p class="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
@@ -268,7 +250,7 @@
                   <button
                     type="button"
                     data-bs-toggle="modal"
-                    data-bs-target="#san-pham-1"
+                    data-bs-target="#san-pham-3"
                     class="btn btn-primary"
                   >
                     Chơi game
@@ -279,89 +261,159 @@
           </div>
         </div>
       </section>
+      <!-- Hết phần dự án -->
 
-      <section id="ket-ban">
+      <!-- Phần blog -->
+      <section id="blog">
+        <div class="container px-4 py-5">
+          <h1 class="text-center display-5 fw-bold lh-1 mb-3">Blog</h1>
+
+          <div
+            class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5"
+          >
+            <div class="col">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="anh/san-pham/san-pham-1.png"
+                  class="card-img-top"
+                  alt="Ảnh sản phẩm"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Bài viết 1</h5>
+                  <p class="card-text">
+                    <small class="text-muted">29/08/2021</small>
+                  </p>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a type="button" class="btn btn-primary" href="#">
+                    Đọc bài
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="anh/san-pham/san-pham-2.png"
+                  class="card-img-top"
+                  alt="Ảnh sản phẩm"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Bài viết 2</h5>
+                  <p class="card-text">
+                    <small class="text-muted">29/08/2021</small>
+                  </p>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a type="button" class="btn btn-primary" href="#">
+                    Đọc bài
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="anh/san-pham/san-pham-3.png"
+                  class="card-img-top"
+                  alt="Ảnh sản phẩm"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Bài viết 3</h5>
+                  <p class="card-text">
+                    <small class="text-muted">29/08/2021</small>
+                  </p>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a type="button" class="btn btn-primary" href="#">
+                    Đọc bài
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hết phần blog -->
+
+      <!-- Phần liên hệ -->
+      <section id="lien-he">
         <div class="container col-xl-10 col-xxl-8 px-4 py-5">
           <div class="row align-items-center g-lg-5 py-5">
-            <div class="col-lg-7 text-center text-lg-start">
+            <div class="col-lg-9 text-center text-lg-start">
               <h1 class="display-4 fw-bold lh-1 mb-3">Kết bạn với tớ</h1>
               <div class="row">
                 <div class="col-12">
-                  <div class="col-4">
-                    <div class="mb-3">
-                      <a href=""
-                        ><img
-                          style="width: 32px; height: 32px"
-                          class="me-3"
-                          src="/anh/steamese-profile.svg"
-                      /></a>
-                      <span class="fs-3">brianbui</span>
-                    </div>
+                  <div class="mb-3">
+                    <a href=""
+                      ><img
+                        style="width: 32px; height: 32px"
+                        class="me-3"
+                        src="anh/lien-he/home.svg"
+                    /></a>
+                    <span class="fs-3">TP. Hồ Chí Minh, Việt Nam</span>
                   </div>
-                  <div class="col-4">
-                    <div class="mb-3">
-                      <a href=""
-                        ><i
-                          style="font-size: 32px"
-                          class="me-3 bi bi-github"
-                        ></i
-                      ></a>
-                      <span class="fs-3">brianbui</span>
-                    </div>
+                </div>
+                <div class="col-12">
+                  <div class="mb-3">
+                    <a href=""
+                      ><img
+                        style="width: 32px; height: 32px"
+                        class="me-3"
+                        src="anh/lien-he/email.svg"
+                    /></a>
+                    <span class="fs-3">brianbui@gmail.com</span>
                   </div>
-                  <div class="col-4">
-                    <div class="mb-3">
-                      <a href=""
-                        ><i
-                          style="font-size: 32px"
-                          class="me-3 bi bi-facebook"
-                        ></i
-                      ></a>
-                      <span class="fs-3">brianbui</span>
-                    </div>
+                </div>
+                <div class="col-12">
+                  <div class="mb-3">
+                    <a href=""
+                      ><img
+                        style="width: 32px; height: 32px"
+                        class="me-3"
+                        src="anh/lien-he/steamese-profile.svg"
+                    /></a>
+                    <span class="fs-3">brianbui</span>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="mb-3">
+                    <a href=""
+                      ><img
+                        style="width: 32px; height: 32px"
+                        class="me-3"
+                        src="anh/lien-he/facebook.svg"
+                    /></a>
+                    <span class="fs-3">brianbui</span>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="mb-3">
+                    <a href=""
+                      ><img
+                        style="width: 32px; height: 32px"
+                        class="me-3"
+                        src="anh/lien-he/scratch.svg"
+                    /></a>
+                    <span class="fs-3">brianbui</span>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-10 mx-auto col-lg-5">
-              <form class="p-4 p-md-5 border rounded-3 bg-light">
-                <div class="form-floating mb-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="ten"
-                    placeholder="Nhập tên của cậu"
-                  />
-                  <label for="ten">Tên cậu là gì?</label>
-                </div>
-                <div class="form-floating mb-3">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="ten"
-                    placeholder="Nhập email của cậu"
-                  />
-                  <label for="ten">Email của cậu là?</label>
-                </div>
-                <div class="form-floating mb-3">
-                  <textarea
-                    class="form-control"
-                    id="loi-nhan"
-                    placeholder="Nhập tên của cậu"
-                    style="height: 100px"
-                  ></textarea>
-                  <label for="loi-nhan">Lời nhắn của cậu</label>
-                </div>
-                <button class="w-100 btn btn-lg btn-primary" type="submit">
-                  Gửi lời nhắn
-                </button>
-              </form>
-            </div>
           </div>
         </div>
       </section>
+      <!-- Hết phần liên hệ -->
     </main>
+    <!-- Hết phần nội dung trang -->
 
+    <!-- Phần hiện cửa sổ dự án -->
     <div
       class="modal fade"
       id="san-pham-1"
@@ -381,6 +433,7 @@
             ></button>
           </div>
           <div class="modal-body">
+            <p>Đây là game của mình</p>
             <div class="ratio ratio-4x3">
               <iframe
                 src="https://scratch.mit.edu/projects/548261105/embed"
@@ -396,24 +449,166 @@
           <div class="modal-footer">
             <button
               type="button"
-              class="btn btn-secondary"
+              class="btn btn-default me-auto"
               data-bs-dismiss="modal"
             >
               Đóng
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+              data-bs-toggle="modal"
+              data-target="#san-pham-2"
+            >
+              Tiếp theo
             </button>
           </div>
         </div>
       </div>
     </div>
 
+    <div
+      class="modal fade"
+      id="san-pham-2"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Cây xương rồng</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Đóng"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>Đây là game của mình</p>
+            <div class="ratio ratio-4x3">
+              <iframe
+                src="https://scratch.mit.edu/projects/548261105/embed"
+                allowtransparency="true"
+                frameborder="0"
+                scrolling="no"
+                width="100%"
+                height="400"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-default me-auto"
+              data-bs-dismiss="modal"
+            >
+              Đóng
+            </button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+              data-bs-toggle="modal"
+              data-target="#san-pham-1"
+            >
+              Lùi
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+              data-bs-toggle="modal"
+              data-target="#san-pham-3"
+            >
+              Tiếp theo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="san-pham-3"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Cây xương rồng</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Đóng"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>Đây là game của mình</p>
+            <div class="ratio ratio-4x3">
+              <iframe
+                src="https://scratch.mit.edu/projects/548261105/embed"
+                allowtransparency="true"
+                frameborder="0"
+                scrolling="no"
+                width="100%"
+                height="400"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-default me-auto"
+              data-bs-dismiss="modal"
+            >
+              Đóng
+            </button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+              data-bs-toggle="modal"
+              data-target="#san-pham-2"
+            >
+              Lùi
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Phần chân trang -->
     <footer class="text-muted py-5">
       <div class="container">
-        <p class="float-end mb-1">
-          <a href="#">Về đầu trang</a>
-        </p>
+        <a
+          href="#"
+          class="btn btn-link btn-sm len-dau-trang"
+          role="button"
+          ><img style="width: 24px; height: 24px" aria-hidden="true" src="anh/dau-trang.svg"/></i
+        ></a>
         <p class="mb-1">Trang web được chỉnh sửa bởi Brian Bui.</p>
         <p class="mb-1">
-          Ảnh được lấy nguồn từ Unsplash, giao diện mẫu của
+          Ảnh được lấy nguồn từ
+          <a
+            href="https://unsplash.com"
+            alt="Website Unsplash"
+            ref="noopener noreferrer nofollow"
+            >Unsplash</a
+          >, biểu tượng từ
+          <a
+            href="https://freepik.com"
+            alt="Website Freepik"
+            ref="noopener noreferrer nofollow"
+            >Freepik</a
+          >, giao diện mẫu của
           <a
             href="https://steamforvietnam.org"
             alt="Website STEAM for Vietnam"
@@ -423,10 +618,14 @@
         </p>
       </div>
     </footer>
+    <!-- Hết phần chân trang -->
+
+    <!-- Phần tải Javascript ở chân trang -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
       crossorigin="anonymous"
     ></script>
+    <!-- Hết phần tải Javascript ở chân trang -->
   </body>
 </html>
